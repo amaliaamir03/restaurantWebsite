@@ -1,0 +1,173 @@
+<html>
+<head>
+<title>	Out of Box Cafe </title>
+
+<style>
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ h1 {
+	padding-top: 40px;
+	text-align: center;
+	font: italic bold 60px Georgia, serif;
+	}
+	
+.slogan {	
+		width: 80%;
+		margin: auto;
+		padding-top: 10px;
+		text-align: center;
+		font: bold 20px Prestige Elite Std, san serif;
+		}
+
+nav {
+  text-align: center;
+  float: none;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav a{
+	padding-left: 30px;
+	padding-right: 50px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #7d6437;
+	}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column2 {
+  float: left;
+  width: 30%;
+  margin-left: 18%;
+  padding: 0 10px;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 30%;
+  margin-left: 18%;
+  margin-top: 10%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #fff2d9;
+}
+
+.div1 {
+  float: bottom;
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+</head>
+</style>
+<body>
+
+
+<div>
+  <h1>Out of Box Cafe <br> <p class="slogan">Your Extraordinary Taste</p></h1>
+</div>
+
+<nav>
+	<a href="OutOfBoxCafe.html">HOME</a>
+	<a href="about.html">ABOUT</a>
+	<a href="menu.html">MENU</a>
+	<a href="contact.html">CONTACT</a>
+</nav>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Signature Dish</h3>
+	  <a target="_blank" href="saltedeggrice.jpg">
+		<img src="saltedeggrice.jpg" alt="Salted Egg Rice" width="250" height="200">
+		</a>
+      <p>Salted Egg Rice</p>
+      <p>RM 12.90</p>
+    </div>
+  </div>
+
+  <div class="column" style="margin-left:30px">
+    <div class="card">
+      <h3>Weekly Special</h3>
+	  <a target="_blank" href="creampasta.jpg">
+		<img src="creampasta.jpg" alt="Salted Egg Rice" width="250" height="200">
+		</a>
+      <p>Cream Pasta</p>
+      <p>RM 13.00</p>
+    </div>
+  </div>
+  </div><br>
+  
+  <div class="row">
+  <div class="column2">
+    <div class="card">
+      <h3>Dessert</h3>
+	  <a target="_blank" href="brownies.jpg">
+		<img src="brownies.jpg" alt="Salted Egg Rice" width="250" height="200">
+		</a>
+      <p>Brownies with Ice Cream</p>
+      <p>RM 9.90</p>
+    </div>
+  </div>
+  
+  <div class="column2" style="margin-left:30px">
+    <div class="card">
+	<h3>Coffee</h3>
+      <a target="_blank" href="latte.jpg">
+		<img src="latte.jpg" alt="Cinque Terre" width="250" height="200">
+		</a>
+      <p>Latte</p>
+      <p>RM 7.00</p>
+    </div>
+  </div>
+  </div>
+
+
+<br><br>
+<div class="div1">
+<p style=" font-size:10px">COPYRIGHT &COPY 2020 OUT OF BOX CAFE</p></div>
+
+</body>
+</html>
